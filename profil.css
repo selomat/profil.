@@ -7,12 +7,34 @@ body{
 th{
     background: #505252;
     color: white;
+    
 }
+
+th:hover{
+    background-color: rgba(0, 255, 242, 0.678);
+
+}
+
+tr:nth-child(odd):hover{
+    background-color: rgba(0, 255, 242, 0.678);
+
+}
+
+h1 p::second-line{
+    font-style: italic;
+}
+  
 
 tr:nth-child(even){
     background: rgb(180, 187, 174);
 }
 
+table{   
+    text-align: center;
+    margin-left: auto;
+    width: 100%;
+}
+     
 h1{
     text-align: center;
     padding-top: 120px;
@@ -43,8 +65,11 @@ header p{
     border-radius: 14px;
     width: 280px;
     height: 250px;
-    margin: 2px;
+    margin: 4px;
 }
+#hobi-list,#hobi-resim{
+    margin:4px
+}  
 
 .Hakkimda{
     border: 2px solid  rgb(69, 212, 231);
@@ -56,7 +81,7 @@ header p{
     background-color: rgb(232, 236, 213); 
 
 } 
-/***id leri buraya koydum***/
+/*id leri buraya koydum*/
 #kapsayici{
     display: flex;
     justify-content: space-around;
@@ -81,7 +106,7 @@ header p{
     color: rgb(81, 15, 187);
     
 }
-/******/
+/*Daha sonra renklendirmeyi kontrol et  */
 caption{
     text-transform: capitalize;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
@@ -99,11 +124,3 @@ legend{
     font-size: 15px;
     text-shadow: 1px 1px 1px rgb(206, 113, 113);
     }
-
-table{   
-    text-align: center;
-    margin-left: auto;
-    width: 100%;
-}
-     
-
